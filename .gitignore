@@ -1,0 +1,19 @@
+# Git ignore file
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.pt
+*.bin
+*.safetensors
+# HuggingFace model cache (too large for GitHub)
+~/.cache/huggingface/
